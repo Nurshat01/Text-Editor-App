@@ -1,4 +1,4 @@
-// Global strings
+
 const DB_NAME = 'jate';
 const DB_VERSION = 1;
 const DB_KEY_PATH = 'id';

@@ -1,4 +1,4 @@
-// Global strings
+
 const CACHE_NAME = 'page-cache';
 const URLS_TO_CACHE = ['/index.html', '/'];
 const CACHE_NAME_ASSET = 'asset-cache';

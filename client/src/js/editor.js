@@ -1,4 +1,4 @@
-// Global strings
+
 const MAIN_SELECTOR = '#main';
 const LOCAL_STORAGE_KEY = 'content';
 const CODE_MIRROR_MODE = 'javascript';
@@ -15,7 +15,6 @@ export default class {
   constructor() {
     const localData = localStorage.getItem(LOCAL_STORAGE_KEY);
 
-    // check if CodeMirror is loaded
     if (typeof CodeMirror === 'undefined') {
       throw new Error(CODEMIRROR_NOT_LOADED_ERROR);
     }

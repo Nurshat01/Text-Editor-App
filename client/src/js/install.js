@@ -1,4 +1,3 @@
-// Global strings
 const strings = {
   buttonInstallId: 'buttonInstall',
   hiddenClass: 'hidden',
@@ -7,12 +6,11 @@ const strings = {
   installSuccessfully:'installed'
 };
 
-// Global log function
+
 const log = (message) => {
   console.log(`[LOG]: ${message}`);
 };
 
-// Get button element
 const butInstall = document.getElementById(strings.buttonInstallId);
 
 window.addEventListener('beforeinstallprompt', (event) => {
