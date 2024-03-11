@@ -26,6 +26,7 @@ This project is a text editor web application that allows users to create notes 
 
 ## Deployment
 - Deploy the application to Render using proper build scripts for a webpack application.
+- link: https://text-editor-app-57y5.onrender.com
 
 ## Technologies Used
 - JavaScript
@@ -39,5 +40,5 @@ Starter code by Xander Rapstine
 
 ## View
 
-![alt text](view/Appview.png) ![alt text](view/Bview.png) ![alt text](view/InspactView.png) ![alt text](view/InsTview.png) ![alt text](view/LogView.png) ![alt text](view/Tview.png)
+![alt text](view/Appview.png) ![alt text](view/Bview.png) ![alt text](view/InspactView.png) ![alt text](view/InsTview.png) ![alt text](view/LogView.png) ![alt text](view/Tview.png)![alt text](view/Dployment.png)
 
