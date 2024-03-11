@@ -3,6 +3,8 @@ import Editor from './editor';
 import './database';
 import '../css/style.css';
 
+const ERROR = 'Service workers are not supported in this browser.';
+
 const main = document.querySelector('#main');
 main.innerHTML = '';
 
@@ -27,5 +29,5 @@ if ('serviceWorker' in navigator) {
   const workboxSW = new Workbox('/src-sw.js');
   workboxSW.register();
 } else {
-  console.error('Service workers are not supported in this browser.');
+  console.error(ERROR);
 }
